@@ -1,0 +1,44 @@
+head,
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+#IntroText {
+  margin-top: 10rem;
+  text-align: center;
+}
+
+#choices {
+  text-align: center;
+}
+
+#choices .rock {
+  width: 5rem;
+  height: 5rem;
+}
+#choices .paper {
+  width: 5rem;
+  height: 5rem;
+}
+#choices .scissors {
+  width: 5rem;
+  height: 5rem;
+}
+
+#winText #roundStatus {
+  font-size: 20px;
+  text-align: center;
+}
+
+#Scores {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+#Scores #compScore {
+  margin-left: 15rem;
+}
+#Scores #userScore {
+  margin-right: 15rem;
+}

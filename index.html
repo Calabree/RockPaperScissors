@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+  <title>Rock, Paper, Scissors!</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js"></script>
+</head>
+<body>
+  <div id="IntroText">
+    <h1 class="weapontext">Rock, Paper, or Scissors?</h1>
+  </div>
+  <div id="choices">
+    <input
+      class="rock"
+      type="image"
+      src="rock.jpg"
+      value="rock"
+      onclick="playGame(value)"
+    />
+    <input
+      class="paper"
+      type="image"
+      src="paper.png"
+      value="paper"
+      onclick="playGame(value)"
+    />
+    <input
+      class="scissors"
+      type="image"
+      src="scissors.jpg"
+      value="scissors"
+      onclick="playGame(value)"
+    />
+  </div>
+  <div id="winText">
+    <h4 id="roundStatus"></h4>
+  </div>
+  <div id="Scores">
+    <h3 id="compScore">Computer Score: 0</h3>
+    <h3 id="userScore">Your Score: 0</h3>
+  </div>
+</body>
